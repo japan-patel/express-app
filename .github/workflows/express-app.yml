@@ -4,7 +4,7 @@ name: Release Node.js app # Name of the workflow
 on:
   push:
     branches:
-      - main
+      - master
 
 # Job called build runs-on ubuntu-latest
 jobs:
